@@ -17,7 +17,7 @@ public class Main extends Application {
 			Parent root = FXMLLoader.load(getClass().getResource("Ventana1.fxml"));
 			Scene sc = new Scene(root);
 			sc.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-			primaryStage.setScene(sc);
+			primaryStage.setScene(sc);			
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
